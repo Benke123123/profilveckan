@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e6f2f0, #f7faf9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-bottom: 0.3rem;
+  color: #2f6f68;
+}
+
+.subtitle {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.3rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4fa89c;
+}
+
+button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.8rem;
+  background: #4fa89c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3d8f85;
+}
+.dashboard {
+  max-width: 420px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.top {
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: white;
+  padding: 1.3rem;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.primary {
+  margin-top: 1rem;
+  background: #4fa89c;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.secondary {
+  margin-top: 0.8rem;
+  background: #e6f2f0;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+}
