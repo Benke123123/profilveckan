@@ -20,13 +20,13 @@ if (form) {
 if (window.location.pathname.includes("dashboard")) {
   const user = localStorage.getItem("user");
   if (!user) {
-    window.location.href = "index.hmtl";
+    window.location.href = "dashboard.html";
   }
 }
 const logoutBtn = document.getElementById("logout");
 if (logoutBtn) {
   logoutBtn.addEventListener("click", () => {
     localStorage.removeItem("user");
-    window.location.href = "index.hmtl";
+    window.location.href = "index.html";
   });
 }
