@@ -7,7 +7,7 @@ h1 {
     margin-left: 460px;
   }
 
-h2 {
+#log{
     color: black;
     margin-left: 50px;
     margin-top: -50px;
@@ -15,11 +15,11 @@ h2 {
     width: 100px;
     padding: 10px 30px 10px;
     border-radius:30px;
+    
 }
 
 #förstaämne {
     color: white;
-    text-shadow: 2px 2px #000000;
     background-color: rgb(47, 158, 158);
     width: 100px;
     margin-left: 0px;
@@ -30,7 +30,6 @@ h2 {
 
 #andraämne {
     color: white;
-    text-shadow: 2px 2px #000000;
     background-color: rgb(47, 158, 158);
     width: 100px;
     margin-left: 0px;
@@ -41,7 +40,6 @@ h2 {
 
 #tredjeämne {
     color: white;
-    text-shadow: 2px 2px #000000;
     background-color: rgb(47, 158, 158);
     width: 100px;
     margin-left: 0px;
@@ -49,3 +47,13 @@ h2 {
     padding: 35px 70px 35px;
     border-radius: 30px;
 }
+
+a {
+    color: rgb(255, 255, 255);    
+    text-decoration: none; 
+  }
+
+#logga  {
+    color: black;         
+    text-decoration: none; 
+  }
