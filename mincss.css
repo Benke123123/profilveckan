@@ -1,0 +1,51 @@
+body{background-color: rgb(198, 193, 193);
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 460px;
+  }
+
+h2 {
+    color: black;
+    margin-left: 50px;
+    margin-top: -50px;
+    background-color: rgb(255, 241, 241);
+    width: 100px;
+    padding: 10px 30px 10px;
+    border-radius:30px;
+}
+
+#förstaämne {
+    color: white;
+    text-shadow: 2px 2px #000000;
+    background-color: rgb(47, 158, 158);
+    width: 100px;
+    margin-left: 0px;
+    margin-top: 300px;
+    padding: 35px 70px 35px;
+    border-radius: 30px;
+}
+
+#andraämne {
+    color: white;
+    text-shadow: 2px 2px #000000;
+    background-color: rgb(47, 158, 158);
+    width: 100px;
+    margin-left: 0px;
+    margin-top: 25px;
+    padding: 35px 70px 35px;
+    border-radius: 30px;
+}
+
+#tredjeämne {
+    color: white;
+    text-shadow: 2px 2px #000000;
+    background-color: rgb(47, 158, 158);
+    width: 100px;
+    margin-left: 0px;
+    margin-top: 25px;
+    padding: 35px 70px 35px;
+    border-radius: 30px;
+}
