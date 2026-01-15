@@ -1,59 +1,30 @@
-body{background-color: rgb(198, 193, 193);
+*{
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
 
+body{
+background: linear-gradient(135deg, #e6f2f0, #f7faf9);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 h1 {
-    color: rgb(0, 0, 0);
-    margin-left: 460px;
+    color: #2f6f68;
+    margin-bottom: 0.3rem;
   }
+.omoss-container{
+    background: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 
-#log{
-    color: black;
-    margin-left: 50px;
-    margin-top: -50px;
-    background-color: rgb(255, 241, 241);
-    width: 100px;
-    padding: 10px 30px 10px;
-    border-radius:30px;
-    
 }
-
-#förstaämne {
-    color: white;
-    background-color: rgb(47, 158, 158);
-    width: 100px;
-    margin-left: 0px;
-    margin-top: 300px;
-    padding: 35px 70px 35px;
-    border-radius: 30px;
+.subtitle{ 
+    margin-bottom: 1.5rem;
+    color: #555;
 }
-
-#andraämne {
-    color: white;
-    background-color: rgb(47, 158, 158);
-    width: 100px;
-    margin-left: 0px;
-    margin-top: 25px;
-    padding: 35px 70px 35px;
-    border-radius: 30px;
-}
-
-#tredjeämne {
-    color: white;
-    background-color: rgb(47, 158, 158);
-    width: 100px;
-    margin-left: 0px;
-    margin-top: 25px;
-    padding: 35px 70px 35px;
-    border-radius: 30px;
-}
-
-a {
-    color: rgb(255, 255, 255);    
-    text-decoration: none; 
-  }
-
-#logga  {
-    color: black;         
-    text-decoration: none; 
-  }
