@@ -110,22 +110,3 @@ if (window.location.pathname.includes("session")) {
   updateTimer();
 }
 
-async function sendMessage() {
-    const input = document.getElementById("input");
-    const chat = document.getElementById("chat");
-  
-    const userMessage = input.value;
-    if (!userMessage) return;
-  
-    chat.innerHTML += `<p><strong>You:</strong> ${userMessage}</p>`;
-    input.value = "";
-  
-    const response = await fetch("/chat", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: userMessage })
-    });
-  
-    const data = await response.json();
-    chat.innerHTML += `<p><strong>AI:</strong> ${data.reply}</p>`;
-  }
